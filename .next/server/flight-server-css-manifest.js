@@ -1,0 +1,1 @@
+self.__RSC_CSS_MANIFEST={"__entry_css__":{"/Users/josedaniel/Desktop/Aplicaciones/ModernWebsite/app/page":["/Users/josedaniel/Desktop/Aplicaciones/ModernWebsite/styles/globals.css"]},"/Users/josedaniel/Desktop/Aplicaciones/ModernWebsite/app/layout.js":["/Users/josedaniel/Desktop/Aplicaciones/ModernWebsite/styles/globals.css"]}
