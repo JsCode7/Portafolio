@@ -27,9 +27,9 @@ export const exploreWorlds = [
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'Tengo experiencia trabajando en equipo con alto nivel comunicacional',
+  'Soy autodidacta y me gusta aprender cosas nuevas',
+  'Me gusta Star Wars 👾, el café ☕ y el anime 🈺',
 ];
 
 export const newFeatures = [
