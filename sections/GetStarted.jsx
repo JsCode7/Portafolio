@@ -32,13 +32,13 @@ const GetStarted = () => (
         className="flex-[0.75] flex justify-center flex-col"
       >
         <TypingText title="| Un poco más de mi" />
-        <TitleText title={<>Para conocerme mejor</>} />
+        <TitleText title={<>¿Cuál es mi stack?</>} />
         <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
-          {startingFeatures.map((feature, index) => (
+          {startingFeatures.map((feature) => (
             <StartSteps
               key={feature}
-              number={index + 1}
-              text={feature}
+              imgUrl={feature.imgUrl}
+              description={feature.description}
             />
           ))}
         </div>

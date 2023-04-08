@@ -23,8 +23,9 @@ const About = () => (
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[24px] text-[18px] text-center text-secondary-white"
       >
-        ¡Hola! Bienvenid@ a mi espacio. Mi nombre es <span className="font-extrabold text-white">Jose Daniel Sanchez, </span> actualmente soy <span className="font-extrabold text-white"> Desarrollador de Frontend. </span> Trabajo en una empresa chilena de marketing y desarrollo de software llamada <a href="https://tactech.cl/" target="_blank" rel="noopener noreferrer" className="font-extrabold text-white"> Tactech. </a>
-        Estudié de manera autodidacta desde el 2016 apróximadamente, y en el 2021 entré a la carrera de Analista programador en el <a href="https://www.cftsanagustin.cl/" target="_blank" rel="noopener noreferrer" className="font-extrabold text-white"> CFT San Agustín de Cauquenes. </a> Actualmente estoy estudiando y aprendiendo React, NextJS y Tailwind, esta página es una muestra de ello. Este gusto por la programación y el desarollo nació con el <span className="font-extrabold text-white">amor por la astronomía, los datos, la lógicidad, las matemáticas. </span> Así que por eso, este es mi espacio.
+        Bienvenid@ a mi espacio. <br /> Mi nombre es <span className="font-extrabold text-white">Jose Daniel Sanchez, </span> soy <span className="font-extrabold text-white"> Desarrollador de Frontend. </span> <br /> Trabajo en una empresa chilena llamada <a href="https://tactech.cl/" target="_blank" rel="noopener noreferrer" className="font-extrabold text-white"> Tactech. </a>
+        <br />
+        ¡Si te interesa conocer más de mi o de mis trabajos, sigue scrolleando!
       </motion.p>
 
       <motion.img

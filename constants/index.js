@@ -2,34 +2,37 @@ export const exploreWorlds = [
   {
     id: 'world-1',
     imgUrl: '/planet-01.png',
-    title: 'Página 1',
+    title: 'Fokus Home - Shopify',
   },
   {
     id: 'world-2',
     imgUrl: '/planet-02.png',
-    title: 'Página 2',
+    title: 'Vandine - Shopify',
   },
   {
     id: 'world-3',
     imgUrl: '/planet-03.png',
-    title: 'Página 3',
-  },
-  {
-    id: 'world-4',
-    imgUrl: '/planet-04.png',
-    title: 'Página 4',
-  },
-  {
-    id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Página 5',
+    title: 'FCS - Wordpress',
   },
 ];
 
 export const startingFeatures = [
-  'Tengo experiencia trabajando en equipo con alto nivel comunicacional',
-  'Soy autodidacta y me gusta aprender cosas nuevas',
-  'Me gusta Star Wars 👾, el café ☕ y el anime 🈺',
+  {
+    imgUrl: '/vrpano.svg',
+    description: 'NextJS | porque me enamoró desde el principio',
+  },
+  {
+    imgUrl: '/vrpano.svg',
+    description: 'Tailwind | CSS porque me solucionó todo',
+  },
+  {
+    imgUrl: '/vrpano.svg',
+    description: 'Framer Motion | porque me encantan las animaciones',
+  },
+  {
+    imgUrl: '/vrpano.svg',
+    description: 'Vercel | porque desplegar es 3..2..1 ¡LISTO!',
+  },
 ];
 
 export const newFeatures = [
@@ -50,21 +53,9 @@ export const newFeatures = [
 export const insights = [
   {
     imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+    title: 'El universo y la programación',
     subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
-  },
-  {
-    imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
-    subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
-  },
-  {
-    imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
-    subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+        'El universo es vasto y se extiende a lo largo del espacio y el tiempo, mientras que la programación puede ser infinita en teoría...',
   },
 ];
 
@@ -72,17 +63,21 @@ export const socials = [
   {
     name: 'twitter',
     url: '/twitter.svg',
+    urlreal: 'https://twitter.com/Jsdeveloper_',
   },
   {
     name: 'linkedin',
     url: '/linkedin.svg',
+    urlreal: 'https://www.linkedin.com/in/jdsmdeveloper/',
   },
   {
     name: 'instagram',
     url: '/instagram.svg',
+    urlreal: 'https://www.instagram.com/jscode_7',
   },
   {
     name: 'facebook',
     url: '/facebook.svg',
+    urlreal: 'https://www.facebook.com/JDSMDev',
   },
 ];

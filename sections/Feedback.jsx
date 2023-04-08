@@ -20,16 +20,16 @@ const Feedback = () => (
       >
         <div className="feedback-gradient" />
         <div>
-          <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40px] leading-[36px] text-white">José</h4>
+          <h4 className="font-bold sm:text-[32px] text-[26px] sm:leading-[40px] leading-[36px] text-white">Querido visitante</h4>
           <p
             className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22px] leading-[16px] text-white"
-          >Yo mismo
+          >(Sí tú)
           </p>
         </div>
         <p
           className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45px] leading-[39px] text-white"
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          Gracias por haber llegado hasta aquí, espero que mi página te pareciera bonita a la vista. Con el paso del tiempo iré mejorando el contenido en ella y expandiendo los confines de la misma, así que... ¡HASTA PRONTO!
         </p>
       </motion.div>
 
