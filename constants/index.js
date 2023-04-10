@@ -18,19 +18,19 @@ export const exploreWorlds = [
 
 export const startingFeatures = [
   {
-    imgUrl: '/vrpano.svg',
+    imgUrl: '/nextjs.svg',
     description: 'NextJS | porque me enamoró desde el principio',
   },
   {
-    imgUrl: '/vrpano.svg',
+    imgUrl: '/tailwind.svg',
     description: 'Tailwind | CSS porque me solucionó todo',
   },
   {
-    imgUrl: '/vrpano.svg',
+    imgUrl: '/framer.svg',
     description: 'Framer Motion | porque me encantan las animaciones',
   },
   {
-    imgUrl: '/vrpano.svg',
+    imgUrl: '/vercel.svg',
     description: 'Vercel | porque desplegar es 3..2..1 ¡LISTO!',
   },
 ];

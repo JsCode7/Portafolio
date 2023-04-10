@@ -20,14 +20,14 @@ const Footer = () => (
         <h4 className="font-bold md:text-[54px] text-[34px] text-white">
           ¿Quieres saber más?
         </h4>
-        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618b] rounded-[32px] gap-[12px]">
+        <a href="https://drive.google.com/file/d/1ROiBXK2m5pXbLA39yuLeuLFIkf9uneUC/view?usp=share_link" className="flex items-center h-fit py-4 px-6 bg-[#25618b] rounded-[32px] gap-[12px]" target="_blank" rel="noopener noreferrer">
           <img
             src="/headset.svg"
             alt="headset"
             className="w-[24px] h-[24px] object-contain"
           />
           <span className="font-normal text-[16px] text-white">Descargar CV</span>
-        </button>
+        </a>
       </div>
       <div className="flex flex-col">
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
