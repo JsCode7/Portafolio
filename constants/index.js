@@ -37,13 +37,13 @@ export const startingFeatures = [
 
 export const newFeatures = [
   {
-    imgUrl: '/vrpano.svg',
+    imgUrl: '/shopify.svg',
     title: 'Shopify',
     subtitle:
         'He realizado un par de proyectos en la mejor plataforma de e-commerce de la actualidad.',
   },
   {
-    imgUrl: '/headset.svg',
+    imgUrl: '/webflow.svg',
     title: 'Webflow',
     subtitle:
         'He desarrollado en la plataforma de No-Code con mejor rendimiento en la actualidad.',

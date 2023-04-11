@@ -22,7 +22,7 @@ const Footer = () => (
         </h4>
         <a href="https://drive.google.com/file/d/1ROiBXK2m5pXbLA39yuLeuLFIkf9uneUC/view?usp=share_link" className="flex items-center h-fit py-4 px-6 bg-[#25618b] rounded-[32px] gap-[12px]" target="_blank" rel="noopener noreferrer">
           <img
-            src="/headset.svg"
+            src="/downloadcv.svg"
             alt="headset"
             className="w-[24px] h-[24px] object-contain"
           />
