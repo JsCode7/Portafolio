@@ -38,15 +38,15 @@ export const startingFeatures = [
 export const newFeatures = [
   {
     imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    title: 'Shopify',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        'He realizado un par de proyectos en la mejor plataforma de e-commerce de la actualidad.',
   },
   {
     imgUrl: '/headset.svg',
-    title: 'More realistic',
+    title: 'Webflow',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+        'He desarrollado en la plataforma de No-Code con mejor rendimiento en la actualidad.',
   },
 ];
 
