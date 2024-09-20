@@ -23,7 +23,7 @@ const About = () => (
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[24px] text-[18px] text-center text-secondary-white"
       >
-        Bienvenid@ a mi espacio. <br /> Mi nombre es <span className="font-extrabold text-white">Jose Daniel Sanchez, </span> soy <span className="font-extrabold text-white"> Desarrollador de Frontend. </span> <br /> Trabajo en una empresa chilena llamada <a href="https://tactech.cl/" target="_blank" rel="noopener noreferrer" className="font-extrabold text-white"> Tactech. </a>
+        Bienvenid@ a mi espacio. <br /> Mi nombre es <span className="font-extrabold text-white">Jose Daniel Sanchez, </span> soy <span className="font-extrabold text-white"> Desarrollador de Frontend. </span> <br /> Actualmente trabajo en una empresa chilena llamada <a href="https://tactech.cl/" target="_blank" rel="noopener noreferrer" className="font-extrabold text-white"> Tactech. </a>
         <br />
         ¡Si te interesa conocer más de mi o de mis trabajos, sigue scrolleando!
       </motion.p>

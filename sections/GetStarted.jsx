@@ -34,9 +34,9 @@ const GetStarted = () => (
         <TypingText title="| Un poco más de mi" />
         <TitleText title={<>¿Cuál es mi stack?</>} />
         <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
-          {startingFeatures.map((feature) => (
+          {startingFeatures.map((feature, index) => (
             <StartSteps
-              key={feature}
+              key={index}
               imgUrl={feature.imgUrl}
               description={feature.description}
             />

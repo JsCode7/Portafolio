@@ -20,7 +20,7 @@ const Footer = () => (
         <h4 className="font-bold md:text-[54px] text-[34px] text-white">
           ¿Quieres saber más?
         </h4>
-        <a href="https://drive.google.com/file/d/1ROiBXK2m5pXbLA39yuLeuLFIkf9uneUC/view?usp=share_link" className="flex items-center h-fit py-4 px-6 bg-[#25618b] rounded-[32px] gap-[12px]" target="_blank" rel="noopener noreferrer">
+        <a href="https://drive.google.com/file/d/1uNfPVVf1KJF40IkAHOEb3ijFPnGMI-SD/view?usp=sharing" className="flex items-center h-fit py-4 px-6 bg-[#25618b] rounded-[32px] gap-[12px]" target="_blank" rel="noopener noreferrer">
           <img
             src="/downloadcv.svg"
             alt="headset"
@@ -35,11 +35,11 @@ const Footer = () => (
         <div className="flex items-center justify-between flex-wrap gap-4">
           <h4 className="font-extrabold text-[24px] text-white">JsDev</h4>
           <p className="font-normal text-[14px] text-white opacity-50">
-            Copyright - 2023 JsDev - All rights reserved.
+            Copyright - 2024 JsDev - All rights reserved.
           </p>
           <div className="flex gap-4">
-            {socials.map((social) => (
-              <a href={social.urlreal} target="_blank" rel="noopener noreferrer">
+            {socials.map((social, index) => (
+              <a href={social.urlreal} target="_blank" rel="noopener noreferrer" key={`social-${index}`}>
                 <img
                   key={social.name}
                   src={social.url}
