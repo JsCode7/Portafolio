@@ -19,7 +19,7 @@ const Navbar = () => {
     >
       <div className="absolute w-[50%] inset-0 gradient-01" />
       <div className={`${styles.innerWidth} mx-auto flex justify-center gap-8`}>
-        <a href="/" className="w-24">
+        <a href="/" className="w-24 z-50">
           <h2 className={`text-[24px] leading-[30px] text-white font-extrabold ${hideH2 ? 'hidden' : ''}`}>
             JsDev
           </h2>
