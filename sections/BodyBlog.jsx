@@ -5,9 +5,8 @@ import { motion } from 'framer-motion';
 import styles from '../styles';
 import { staggerContainer } from '../utils/motion';
 import { BlogContent } from '../components';
-import { insights } from '../constants';
 
-const BodyBlog = () => (
+const BodyBlog = ({ post }) => (
   <section className="relative z-10">
     <motion.div
       variants={staggerContainer}
@@ -17,9 +16,7 @@ const BodyBlog = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
       <div className="mt-[50px] flex flex-col gap-[30px]">
-        {insights.map((insight, index) => (
-          <BlogContent key={`insight-${index}`} {...insight} index={index + 1} />
-        ))}
+        <BlogContent {...post} />
       </div>
     </motion.div>
   </section>

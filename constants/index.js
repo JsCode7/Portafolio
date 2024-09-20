@@ -52,7 +52,7 @@ export const newFeatures = [
 
 export const insights = [
   {
-    slug: '/blog/1',
+    slug: '1',
     imgUrl: '/planet-06.png',
     imgPost: '/post-01.png',
     title: 'El universo y la programación',

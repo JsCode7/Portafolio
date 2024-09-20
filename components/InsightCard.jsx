@@ -22,7 +22,7 @@ const InsightCard = ({ slug, imgUrl, title, subtitle, index }) => (
           {subtitle}
         </p>
       </div>
-      <a href={slug} rel="noopener noreferrer">
+      <a href={`blog/${slug}`} rel="noopener noreferrer">
         <div className="lg:flex hidden items-center justify-center w-[100px] h-[100px] rounded-full bg-transparent border-[1px] border-white">
           <img
             src="arrow.svg"
