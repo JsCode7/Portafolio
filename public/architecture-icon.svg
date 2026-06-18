@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Outer Hexagon (Infrastructure) -->
+  <polygon points="50,5 89,27.5 89,72.5 50,95 11,72.5 11,27.5" stroke="rgba(255,255,255,0.4)" stroke-dasharray="4 4"/>
+  <!-- Middle Hexagon (Application) -->
+  <polygon points="50,20 76,35 76,65 50,80 24,65 24,35" stroke="rgba(255,255,255,0.7)"/>
+  <!-- Inner Hexagon/Core (Domain) -->
+  <polygon points="50,35 63,42.5 63,57.5 50,65 37,57.5 37,42.5" fill="white" stroke="white"/>
+</svg>

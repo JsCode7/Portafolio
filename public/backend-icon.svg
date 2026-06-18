@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="white" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Code bracket left -->
+  <path d="M 35 25 C 20 25, 25 50, 15 50 C 25 50, 20 75, 35 75" />
+  <!-- Code bracket right -->
+  <path d="M 65 25 C 80 25, 75 50, 85 50 C 75 50, 80 75, 65 75" />
+  <!-- Structured nodes in the middle -->
+  <circle cx="50" cy="35" r="4" fill="white" />
+  <circle cx="50" cy="50" r="4" fill="white" />
+  <circle cx="50" cy="65" r="4" fill="white" />
+  <line x1="50" y1="39" x2="50" y2="46" />
+  <line x1="50" y1="54" x2="50" y2="61" />
+</svg>

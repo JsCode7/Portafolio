@@ -1,14 +1,15 @@
 'use client';
 
-import { motion } from 'framer-motion';
-import { useRouter } from 'next/router';
+import { motion } from 'motion/react';
+import { usePathname } from 'next/navigation';
+import Link from 'next/link';
 
 import styles from '../styles';
 import { navVariants } from '../utils/motion';
 
 const Navbar = () => {
-  const router = useRouter();
-  const hideH2 = router.pathname === '/';
+  const pathname = usePathname();
+  const hideH2 = pathname === '/';
 
   return (
     <motion.nav
@@ -19,11 +20,11 @@ const Navbar = () => {
     >
       <div className="absolute w-[50%] inset-0 gradient-01" />
       <div className={`${styles.innerWidth} mx-auto flex justify-center gap-8`}>
-        <a href="/" className="w-24 z-50">
+        <Link href="/" className="w-24 z-50">
           <h2 className={`text-[24px] leading-[30px] text-white font-extrabold ${hideH2 ? 'hidden' : ''}`}>
             JsDev
           </h2>
-        </a>
+        </Link>
       </div>
     </motion.nav>
   );

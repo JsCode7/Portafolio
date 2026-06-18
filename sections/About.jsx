@@ -1,10 +1,10 @@
 'use client';
 
-import { motion } from 'framer-motion';
+import { motion } from 'motion/react';
 import { TypingText } from '../components';
 
 import styles from '../styles';
-import { fadeIn, staggerContainer } from '../utils/motion';
+import { fadeIn, staggerContainer, planetVariants } from '../utils/motion';
 
 const About = () => (
   <section className={`${styles.paddings} relative z-10`}>
@@ -13,26 +13,50 @@ const About = () => (
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
+      viewport={{ once: true, amount: 0.1 }}
+      className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
-      <TypingText title="| Acerca de mi"
-        textStyles="text-center"
-      />
-      <motion.p
-        variants={fadeIn('up', 'tween', 0.2, 1)}
-        className="mt-[8px] font-normal sm:text-[24px] text-[18px] text-center text-secondary-white"
-      >
-        Bienvenid@ a mi espacio. <br /> Mi nombre es <span className="font-extrabold text-white">Jose Daniel Sanchez, </span> soy <span className="font-extrabold text-white"> Desarrollador de Frontend. </span> <br /> Actualmente trabajo en una empresa chilena llamada <a href="https://tactech.cl/" target="_blank" rel="noopener noreferrer" className="font-extrabold text-white"> Tactech. </a>
-        <br />
-        ¡Si te interesa conocer más de mi o de mis trabajos, sigue scrolleando!
-      </motion.p>
+      <TypingText title="| Acerca de mi" textStyles="text-center" />
+
+      <div className="mt-[40px] flex lg:flex-row flex-col gap-12 items-center">
+        {/* Left: Planet Visual (to balance text) */}
+        <motion.div
+          variants={planetVariants('left')}
+          className={`flex-1 ${styles.flexCenter}`}
+        >
+          <img
+            src="/planet-02.png"
+            alt="planet-about"
+            className="w-[80%] h-[80%] object-contain"
+          />
+        </motion.div>
+
+        {/* Right: Personal Story */}
+        <motion.div
+          variants={fadeIn('left', 'tween', 0.2, 1)}
+          className="flex-1 flex flex-col justify-center text-secondary-white font-normal sm:text-[20px] text-[16px] leading-[36px]"
+        >
+          <p className="mb-6">
+            ¡Hola! Soy <span className="font-extrabold text-white">José Daniel Sánchez</span>, Ingeniero de Software y Desarrollador Fullstack comprometido con el diseño estratégico del software.
+          </p>
+          <p className="mb-6">
+            Encuentro mi mayor motivación en conceptualizar el problema y diseñar la arquitectura para estructurar flujos lógicos eficientes.
+          </p>
+          <p className="mb-6">
+            Me especializo en <span className="font-extrabold text-white">Arquitectura Hexagonal</span> y <span className="font-extrabold text-white">Clean Architecture</span>, garantizando sistemas escalables y fáciles de mantener.
+          </p>
+          <p>
+            ¡Si te interesa conocer más de mi o de mis trabajos, sigue explorando hacia abajo!
+          </p>
+        </motion.div>
+      </div>
+
 
       <motion.img
-        variants={fadeIn('up', 'tween', 0.3, 1)}
+        variants={fadeIn('up', 'tween', 0.6, 1)}
         src="/arrow-down.svg"
         alt="Flecha hacia abajo"
-        className="w-[18px] h-[28px] object-contain mt-[28px]"
+        className="w-[18px] h-[28px] object-contain mt-[40px] mx-auto"
       />
     </motion.div>
   </section>

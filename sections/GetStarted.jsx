@@ -1,6 +1,6 @@
 'use client';
 
-import { motion } from 'framer-motion';
+import { motion } from 'motion/react';
 
 import styles from '../styles';
 import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
@@ -13,7 +13,7 @@ const GetStarted = () => (
       variants={staggerContainer}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: 'false', amount: 0.25 }}
+      viewport={{ once: true, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
     >
       <motion.div
@@ -31,9 +31,9 @@ const GetStarted = () => (
         variants={fadeIn('left', 'tween', 0.25, 1)}
         className="flex-[0.75] flex justify-center flex-col"
       >
-        <TypingText title="| Un poco más de mi" />
-        <TitleText title={<>¿Cuál es mi stack?</>} />
-        <div className="mt-[31px] flex flex-col max-w-[370px] gap-[24px]">
+        <TypingText title="| Filosofía de Desarrollo" />
+        <TitleText title={<>Principios y pilares técnicos</>} />
+        <div className="mt-[31px] flex flex-col max-w-[550px] gap-[24px]">
           {startingFeatures.map((feature, index) => (
             <StartSteps
               key={index}
