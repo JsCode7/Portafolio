@@ -14,8 +14,35 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }) {
   const { slug } = await params;
   const post = insights.find((item) => item.slug === slug);
+  
+  if (!post) {
+    return {
+      title: 'Blog | José Daniel',
+    };
+  }
+
+  const postImage = post.imgPost || post.imgUrl || '/og-image.jpg';
+
   return {
-    title: post ? `${post.title} | José Daniel` : 'Blog | José Daniel',
+    title: `${post.title} | José Daniel`,
+    description: post.subtitle,
+    openGraph: {
+      title: `${post.title} | José Daniel`,
+      description: post.subtitle,
+      images: [
+        {
+          url: postImage,
+          alt: post.title,
+        },
+      ],
+      type: 'article',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${post.title} | José Daniel`,
+      description: post.subtitle,
+      images: [postImage],
+    },
   };
 }
 
