@@ -100,6 +100,19 @@ export const insights = [
     p4: 'Además de validar la funcionalidad básica, un harness moderno para AIDD debe evaluar aspectos no funcionales como el consumo de memoria, la latencia de las peticiones, la seguridad del código frente a vulnerabilidades comunes y la conformidad con los estándares arquitectónicos (como Clean Architecture). Al establecer límites rígidos pero flexibles a través del arnés, los desarrolladores pueden capacitar a las herramientas de IA para innovar con seguridad dentro de un marco de ingeniería seguro y controlado.',
     p5: 'En conclusión, la verdadera revolución de la IA en el desarrollo de software no radica en la generación de código sin control, sino en la capacidad de automatizar la validación y el refinamiento continuo. El harness es el eslabón indispensable que permite dar el salto de prototipos rápidos generados por IA a sistemas listos para producción empresarial. En la ingeniería moderna, diseñar un arnés sólido es la mayor garantía de éxito.',
   },
+  {
+    slug: '3',
+    imgUrl: '/planet-01.png',
+    imgPost: '/planet-02.png',
+    title: 'Construyendo un Sub-Broker Astronómico Local para AGNs',
+    subtitle:
+        'Un pipeline de datos local diseñado para la ingesta, agregación estocástica y clasificación en tiempo real de Núcleos Galácticos Activos.',
+    p1: 'El universo es dinámico y observarlo ha cambiado radicalmente con telescopios como ZTF que generan millones de alertas cada noche. Recientemente desarrollé el AGN Predictive Sub-Broker, un pipeline de datos local diseñado para la ingesta, agregación estocástica y clasificación en tiempo real de Núcleos Galácticos Activos (AGNs) y Estrellas Variables, consumiendo el stream del broker oficial ALeRCE.',
+    p2: 'A diferencia de ALeRCE, que procesa alertas genéricas utilizando heurísticas y modelos estáticos, este Sub-Broker actúa como un filtro topológico especializado. Se concentra exclusivamente en extraer parámetros físicos complejos para un tipo de objetos usando algoritmos de Aprendizaje Continuo (Incremental Learning). El modelo se entrena y actualiza progresivamente (SGD) a medida que llegan nuevos fotones en tiempo real.',
+    p3: 'El corazón científico del proyecto radica en inferir características termodinámicas de los discos de acreción de los agujeros negros supermasivos. Para ello, intercepta series de tiempo fotométricas asincrónicas irregulares y aplica un modelo de Caminata Aleatoria Amortiguada (DRW) vectorizado en PyTorch, calculando la variabilidad a largo plazo y el tiempo de relajación de decaimiento temporal.',
+    p4: 'Para manejar este flujo masivo de datos, implementé una Arquitectura Hexagonal y principios SOLID. El sistema emplea Apache Kafka para el streaming y control de Backpressure, PostgreSQL con TimescaleDB para el historial temporal, y una capa FastAPI para servir métricas. Todo orquestado dentro de contenedores Docker para un despliegue reproducible.',
+    p5: '¿Por qué local y no en la nube? El flujo incesante de datos astronómicos genera costos de cómputo y transferencia prohibitivos en servicios cloud para la exploración continua. Al ejecutarse de forma on-premise, los investigadores evitan costos exorbitantes, permitiéndoles iterar modelos de aprendizaje continuo y recalibrar sus parámetros estocásticos sin restricciones financieras.',
+  },
 ];
 
 export const socials = [
